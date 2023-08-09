@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "spamCount" INTEGER NOT NULL DEFAULT 0,
+ALTER COLUMN "name" DROP NOT NULL;

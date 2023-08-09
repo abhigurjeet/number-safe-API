@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "User" ALTER COLUMN "contacts" SET DATA TYPE TEXT[],
+ALTER COLUMN "phoneNumber" SET DATA TYPE TEXT;
